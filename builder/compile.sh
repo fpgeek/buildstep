@@ -40,6 +40,7 @@ export HOME="$app_dir"
 export REQUEST_ID=$(openssl rand -base64 32)
 export STACK=cedar-14
 export CURL_CONNECT_TIMEOUT=30
+export CURL_TIMEOUT=600
 
 ## Buildpack detection
 
